@@ -1,0 +1,171 @@
+    body{
+    /* it used for centering the whole element*/
+    text-align: center; 
+    margin: 0 ;
+    
+    /* it used for centering the whole element*/
+
+    color: #40514E;  
+     }
+
+       .top-cloud {
+        position: absolute;
+        right: 300px;
+        top: 40px;
+        }
+        
+        .bottom-cloud {
+         position: absolute;
+         left: 250px;
+         bottom: 300px;
+        }
+
+        .top-container {
+            background-color: #E4F9F5;
+            position: relative;
+           padding-top: 100px;
+        }
+
+        .middle-container{
+            margin: 100px 0;
+          text-align: center;
+        }
+
+        .bottom-container{
+            background-color: #66BFBF ;
+            padding: 50px 0 20px;
+        }
+        
+        p {
+            line-height: 2;
+             font-style: normal;
+        }
+        
+        h1{
+            font-family: 'Sacramento', cursive;
+            font-size: 5.625rem;
+            margin: 50px auto 0 auto;
+            color: #66BFBF;
+            
+        }
+        h2{
+            font-family: 'Montserrat',sans-serif;
+            font-size: 2.5rem;
+            font-weight: normal;
+            color: #66BFBF;
+            padding-bottom: 10px;
+            
+        }
+        h3{
+            color: #11999E;
+            font-family: 'Montserrat',sans-serif;
+            text-align: center;
+        }
+        
+        
+        .skills{
+        
+            line-height: 2;
+        }
+        .profile{
+            line-height: 2;
+        }
+    
+       
+        .skills-row1{
+            
+            margin: 100px auto 100px auto;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            line-height: 2;
+            display: flex;
+        }
+        .skills-row2 {
+            margin: 100px auto 100px auto;
+            width: 100%;
+            line-height: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .skilll{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: end;
+            padding: 0 1rem;
+        }
+        .code-img{
+            
+            width: 15%;
+            float: left;
+            margin-right: 30px;
+            margin-left: 50px;
+        }
+        .chilli-img{
+            width: 15%;
+            float: right;
+           padding-left: 100px;
+            /* margin-right: 50px; */
+        }
+.pro {
+    text-decoration: underline;
+}
+.profile-img {
+    width: 15%;
+}
+.intro {
+width: 90%;
+margin: auto;
+}
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  a {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #EAF6F6;
+  }
+  .copyright {
+    color: #EaF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+  .myskill {
+text-align: center;
+  }
